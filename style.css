@@ -1,0 +1,330 @@
+/* poppins Medium 500 */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* font */
+
+/* common style */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #F3F1FF;
+}
+/* -----------------
+------- header style 
+-------------------*/
+header {
+    height: 677px;
+    width: 100%;
+    background-color: #562EFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav {
+    padding-top: 42px;
+    width: 1160px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    font size: 16px;
+    margin-right: 36px;
+}
+.links a:hover{
+    color: pink;
+}
+.login{
+    background-color: #E02C6D;
+    width: 123px;
+    height: 44px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login span{
+    margin-left: 10px;
+}
+.header-contant{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-top: 49px;
+}
+.header-text h1{
+    color: white;
+    font-size: 64px;
+    font-weight: bold;
+}
+.watch-live{
+    width: 168px;
+    height: 44px;
+    color: white;
+    background-color: #E02C6D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.watch-live span{
+    margin-right: 10px;
+}
+.header-img img{
+    width: 556px;
+    height: 456px;
+}
+header:hover .header-img img{
+    transform: scale(1.02);
+    transform-origin: right;
+    transition: transform 1s ease-in-out;
+}
+header:hover .watch-live{
+    transform: scale(1.1);
+    transition: transform 1s ease-in-out;
+}
+/* -----------------
+----header style end
+-------------------*/
+
+/* -------------------
+-----main part style
+-------------------- */
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.players-album{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+}
+.album-frame{
+    width: 330px;
+    height: 474px;
+    background-color: white;
+}
+.photo-details{
+    width: 300px;
+    height: 426px;
+    padding: 15px;
+}
+.palyer-photo{
+    overflow: hidden;
+}
+.palyer-photo img:hover{
+    transform: scale(1.1);
+    transition: transform 1s;
+}
+.palyer-photo img{
+    width: 300px;
+    height: 256px;
+}
+.palyer-detail{
+    width: 300px;
+    height: 154px;
+}
+.palyer-detail h1{
+    margin-top: 16px;
+    margin-bottom: 10px;
+    font-size: 28px;
+    font-weight: 700;
+}
+.palyer-detail p{
+    margin: 0;
+    font-size: 16px;
+}
+.highlights{
+    width: 1102px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 165px;
+
+}
+.highlights-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.highlights-details h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #0A0826;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+.highlights-details p{
+    font-size: 16px;
+    color: #6C6C6C;
+    margin: 0;
+}
+.watch-now{
+    width: 173px;
+    height: 44px;
+    color: white;
+    background-color: #E02C6D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+}
+.watch-now:hover{
+    transform: scale(1.1);
+    transition: transform 1s;
+}
+.watch-now span{
+    margin-right: 10px;
+}
+.highlights-image{
+    width: 567px;
+    height: 427px;
+    overflow: hidden;
+}
+.highlights-image img:hover{
+    transform: scale(1.1);
+    transition: transform 1s;
+}
+.highlights-image img{
+    width: 567px;
+    height: 427px;
+}
+
+/* ---------------------
+-----main part style end
+-----------------------*/
+
+/*-----------------
+---------bonus part 
+------------------*/
+
+.section1{
+    display: flex;
+    justify-content: center;
+}
+.section-title h1{
+    font-size: 40px;
+    color: #562EFF;
+    margin-top: 50px;
+}
+.section1-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.section1-element{
+    width: 1154.2px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 25px;
+}
+.section1-element article{
+    width: 465.6px;
+    height: 400px;
+    background-color: white;
+}
+.article-img img{
+    width: 465.6px;
+    height: 261.6px;
+}
+.article-title p{
+    font-size: 20px;
+    text-align: center;
+}
+.see-more-box{
+    width: 173px;
+    height: 261.6px;
+    display: flex;
+    align-items: center;
+}
+.see-more{
+    width: 173px;
+    height: 44px;
+    color: white;
+    background-color: #E02C6D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.see-more span{
+    margin-right: 10px;
+}
+.see-more:hover{
+    transform: scale(1.1);
+    transition: transform 1s;
+}
+.article-img{
+    overflow: hidden;
+}
+.article-img img:hover{
+    transform: scale(1.1);
+    transition: transform 1s;
+}
+
+.section2{
+    display: flex;
+    justify-content: center;
+}
+.section1-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.section2-element{
+    width: 1154.2px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 25px;
+}
+.article-details{
+    padding-left: 20px;
+}
+.article-text p{
+    font-size: 18px;
+    color: gray;
+    margin-top: 18px;
+    margin-bottom: 0;
+}
+.article-text h3{
+    font-size: 24px;
+    margin-bottom: 0;
+}
+/*-----------------
+----bonus part end 
+------------------*/
+
+/* -------------------
+-----footer style
+-------------------- */
+
+
+footer{
+    margin-top: 158px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-img img{
+    width: 483.87px;
+    height: 110px;
+}
+.footer-icon a{
+    text-decoration: none;
+    font-size: 32px;
+    color: gray;
+    margin-right: 14px;
+}
+.footer-icon a:hover{
+    color: pink;
+}
+.footer-text p{
+    font-size: 18px;
+    color: black;
+}
+
+/* -------------------
+-----footer style end
+-------------------- */
